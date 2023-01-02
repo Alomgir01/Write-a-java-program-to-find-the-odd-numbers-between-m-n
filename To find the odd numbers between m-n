@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class HelloWorld {
+public static void main(String[] args) {
+Scanner input=new Scanner(System.in);
+System.out.print("Input m and n: “);
+int m=input.nextInt();
+int n=input.nextInt();
+if(m<n){
+for(i=m;i<=n;i++)
+{
+if(i%2!=0)
+{
+System.out.print(i+",");
+}
+}
+}
+else{
+for(i=n;i<=m;i++){
+if(i%2!=0)
+{
+System.out.print(i+",");
+}
+}
+}
+}}
